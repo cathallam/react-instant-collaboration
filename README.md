@@ -5,7 +5,7 @@ This project is developing an instant messaging application and designed to:
 * Upload multimedia files
 
 
-## Built with
+## Languages:
 * React
 * Redux
 * Semantic UI
