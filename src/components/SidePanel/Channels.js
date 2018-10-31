@@ -22,7 +22,8 @@ componentDidMount() {
 }
 
 // Used for example to go to a different route in the app
-componentDidUnmount() {
+componentWillUnmount()
+ {
   this.removeListeners();
 
 }
@@ -138,9 +139,9 @@ include a then, set the state to clear channel name and channel detail from stat
         <Menu.Menu style={{ paddingBottom: '2em' }}>
           <Menu.Item>
             <span>
-              <Icon name='exchange' /> CHANNELS
+              <Icon name='comment outline' /> Vice List
             </span>{''}
-            ({channels.length}) <Icon name='add' onClick={this.openModal} />
+            ({channels.length}) <Icon name='pencil alternate' onClick={this.openModal} />
           </Menu.Item>
           {/* Channels - Iterating over Channels Created */}
           {this.displayChannels(channels)}

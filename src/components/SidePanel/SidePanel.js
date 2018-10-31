@@ -14,7 +14,7 @@ class SidePanel extends React.Component {
         inverted
         fixed='left'
         vertical
-        style={{ background: '#140010', fontSize: '1.2rem' }} 
+        style={{ background: '#000', fontSize: '1.2rem' }} 
         >
 
          {/* Pass currentUser prop the username and avatar from userPanel and Channels  */}
