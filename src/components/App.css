@@ -1,7 +1,8 @@
 html,
 body,
-.signup {
-  height:100vh;
+.app {
+  height: 100vh;
+  background: #eee;
   padding: 1em;
 }
 
@@ -19,4 +20,14 @@ body,
   left: 0;
   right: 1em;
   z-index: 200;
+}
+
+/* Message.js */
+.message__self {
+  border-left: 2px solid rgb(255, 0, 136);
+  padding-left: 8px;
+}
+
+.message__image {
+  padding: 1em;
 }
